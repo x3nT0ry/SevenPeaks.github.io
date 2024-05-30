@@ -1,0 +1,246 @@
+*{
+    font-family: Arial, sans-serif;
+    margin: 0;
+}
+header{
+    height: 180px;
+    box-shadow: 0 5px 10px #000;
+}
+.wrapper {
+    max-width: 1127px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 15px;
+
+}
+.left-header{
+    display: flex;
+
+}
+.phone{
+    display: flex;
+}
+.email{
+    display: flex;
+    padding-left: 40px;
+
+}
+.right-header{
+    display: flex;
+    flex-direction: row;
+}
+.first{
+    padding-top: 15px;
+    
+
+}
+.second{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+}
+.text{
+    font-size: 15px;
+}
+.line {
+    border-top: 1px solid rgb(189, 187, 187);
+    margin: 15px 0 0 0;
+}
+
+.img{
+    width: 18px;
+    height: 18px;
+    padding-right: 5px;
+}
+
+.log{
+    width: 120px;
+    height: 100px;
+}
+nav{
+    padding-top: 20px;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav ul li {
+    position: relative;
+}
+
+nav ul li a {
+    
+    text-decoration: none;
+    padding: 10px 20px;
+    display: block;
+    color: #000;
+    font-size: 20px;
+}
+
+nav ul li a:hover {
+    background-color: #f0f0f0;
+}
+
+nav ul li .dropdown-content {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: #fff;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+    z-index: 1000;
+}
+
+nav ul li .dropdown-content li {
+    white-space: nowrap;
+}
+
+nav ul li .dropdown-content li a {
+    padding: 10px 20px;
+}
+
+nav ul li .dropdown-content li a:hover {
+    background-color: #f0f0f0;
+}
+
+nav ul li:hover .dropdown-content {
+    display: block;
+}
+
+
+.footer {
+    text-align: center;
+}
+
+.footer1 {
+    background-color: #2D3F45;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 20px 0;
+}
+
+.footer2 {
+    background-color: #324950;
+    padding: 20px 0 13px 0;
+}
+
+.icon1 {
+    margin-right: 10px;
+    width: 32px;
+    height: 32px;
+}
+
+.text52 {
+    color: #B9B9B9;
+    font-size: 14px;
+}
+
+.footer ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+.footer ul li {
+    display: inline;
+    margin-left: 15px;
+}
+
+.footer ul li a {
+    color: #FFFFFF;
+    font-size: 16px;
+    text-decoration: none;
+    transition: color .3s;
+    text-transform: uppercase;
+    margin-left: 30px;
+}
+
+.footer ul li a:hover {
+    color: #CD853F;
+}
+.bg{
+    height: 480px;
+    background: url(../image/switzerland.jpg);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+.content{
+    margin: 50px 0;
+}
+
+.f_img{
+    height: 60px;
+    width: 60px;
+    padding-right: 20px;
+}
+
+.imgg{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+
+.text h1{
+    margin: 0;
+    font-size: 48px;
+    font-weight: normal;
+    
+}
+.e_img{
+    width: 850px;
+    height: 500px;
+}
+.e_img:hover{
+    transform: scale(1.1);
+    transition: transform 0.8s;
+}
+.f_i{
+    align-items: center;
+    text-align: center;
+}
+.bcont{
+    font-size: 35px;
+    text-align: center;
+    margin: 20px 0;
+}
+.cont{
+    font-size: 23px;
+    line-height: 1.5;
+    margin: 25px 0;
+}
+
+table {
+    width: 60%;
+    border-collapse: collapse;
+    margin: 0 auto;
+    background-color: #ffffff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+th, td {
+    padding: 12px 15px;
+    text-align: left;
+    border-bottom: 1px solid #dddddd;
+}
+
+th {
+    background-color: #CD853F;
+    color: white;
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+tr:hover {
+    background-color: #ddd;
+}
